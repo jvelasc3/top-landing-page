@@ -1,0 +1,40 @@
+body {
+  background-color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", arial;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  color: #f9faf8;
+  background: #1f2937;
+  align-items: center;
+  padding: 20px 0px 20px 100px;
+}
+
+.header-logo img {
+  width: 100px;
+  height: 100px;
+  margin-right: auto;
+}
+
+.links {
+  display: flex;
+  margin-left: auto;
+  padding: 0px 100px 0px 0px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+  padding: 10px;
+  font-family: "Roboto", arial;
+}
